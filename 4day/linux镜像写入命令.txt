@@ -1,0 +1,7 @@
+1.¹ÒÔØ¾µÏñ
+kpartx -av xxx.img
+mount /dev/mapper/loop0p1 /mnt
+
+2.
+kpartx -d xxx.img
+umount /mnt
